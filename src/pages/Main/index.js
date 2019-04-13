@@ -34,6 +34,7 @@ export default class Main extends Component {
                     onChange={this.handleInputChange}
                 />
                 <button type="submit">Criar</button>
+                <p>Essa é apenas uma aplicação de exemplo, não faça upload de arquivos sensíveis.</p>
             </form>  
         </div>
     );

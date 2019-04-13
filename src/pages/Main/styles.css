@@ -38,3 +38,6 @@
 #main-container form button:hover{
     opacity: 0.8;
 }
+#main-container p{
+    margin-top: 10px;
+}

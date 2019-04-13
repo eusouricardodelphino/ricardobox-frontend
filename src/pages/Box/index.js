@@ -68,9 +68,9 @@ export default class Box extends Component {
             </div>
           )}
         </Dropzone>
-
+            
         <ul>
-
+          
           {this.state.box.files && this.state.box.files.map( file => (
             <li key={file._id}>
               <a href={file.url} target='_blank' className='fileInfo'>
